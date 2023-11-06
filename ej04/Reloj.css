@@ -1,0 +1,40 @@
+.clock {
+  margin: 0px auto;
+  width: 450px;
+  height: 450px;
+  fill: #FCFFD8
+}
+.outer-circle,
+.center-circle {
+  fill: DarkSlateGray;
+}
+
+.hours,
+.minutes,
+.seconds {
+  transform-origin: center;
+  stroke-linecap: round;
+}
+
+.hours {
+  stroke: #20367C;
+  stroke-width: 2.5px; 
+  transition: transform 1s ease-in-out;
+}
+.minutes {
+  stroke-width: 2.7px; 
+  stroke: #4A6BD3;
+  transition: transform 1s ease-in-out;
+}
+.seconds {
+  stroke: black;
+  stroke-width: 1px; 
+  
+}
+
+.line {
+  stroke-width: 1px;
+  stroke: black;
+  stroke-linecap: round;
+  transform-origin: center;
+}

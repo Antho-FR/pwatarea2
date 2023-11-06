@@ -1,0 +1,10 @@
+#imagen {
+    width: 600px;
+    height: auto;
+    transition: transform 0.5s;
+  
+}
+
+#imagen:hover {
+    transform: scale(0);
+}

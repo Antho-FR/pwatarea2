@@ -1,0 +1,25 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: none;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    display: block;
+    margin: 10px;
+}
+
+.prev-button, .next-button {
+    cursor: pointer;
+}

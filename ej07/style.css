@@ -1,0 +1,8 @@
+/* Estilo para ocultar inicialmente los submenús */
+.submenu {
+  display: none;
+}
+li,ul{
+  margin: auto;
+  text-align: center;
+}
